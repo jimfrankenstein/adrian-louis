@@ -1,0 +1,51 @@
+{
+  "firebase": "adrian-louis",
+  "public": "_site",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ],
+  "redirects": [
+    {
+      "source": "/bibliography.php",
+      "destination": "/bibliography",
+      "type": 301
+    },
+    {
+      "source": "/bio.php",
+      "destination": "/bio",
+      "type": 301
+    },
+    {
+      "source": "/index.php",
+      "destination": "/",
+      "type": 301
+    },
+    {
+      "source": "/links.php",
+      "destination": "/links",
+      "type": 301
+    },
+    {
+      "source": "/logorrhea.php",
+      "destination": "/logorrhea",
+      "type": 301
+    },
+    {
+      "source": "/readings.php",
+      "destination": "/readings",
+      "type": 301
+    },
+    {
+      "source": "/savagesunsets.php",
+      "destination": "/savagesunsets",
+      "type": 301
+    },
+    {
+      "source": "/skins.php",
+      "destination": "/skins",
+      "type": 301
+    }
+  ]
+}

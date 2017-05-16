@@ -1,0 +1,23 @@
+<!doctype html>
+<html class="opaque no-touch no-phone" lang="en">
+  {% include head.html %}
+  <body>
+  <!--firebase host-->
+  <div id="wrapper">
+    <div id="banner">
+      <a href="/">
+      <img src="{{site.image_path}}/Elements/Banner.jpg" width="782" height="127" alt="Adrian C. Louis, American Author and Poet" />
+      </a>
+    </div>
+    <div id="nav">
+      {% include navigation.html %}
+    </div>
+    <div id="content">
+      {{ content }}
+    </div>
+    <div id="tail" class="footer">
+      {% include navigation.html %}
+    </div>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+# Site settings
+title: American Author and Poet Adrian C. Louis
+email: your-email@domain.com
+description: The official website of Adrian C. Louis, American author and poet.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://adrian-c-louis.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+image_path: "/images"
+
+exclude:
+  - divshot.json
+  - adrian-louis.sublime-project
+  - adrian-louis.sublime-workspace
+
+gems: [jekyll-coffeescript]

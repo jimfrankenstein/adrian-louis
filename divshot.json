@@ -1,0 +1,16 @@
+{
+  "name": "adrian-louis",
+  "root": "_site",
+  "clean_urls": true,
+  "error_page": "error.html",
+  "redirects": {
+    "/bibliography.php": "/bibliography",
+    "/bio.php": "/bio",
+    "/index.php": "/",
+    "/links.php": "/links",
+    "/logorrhea.php": "/logorrhea",
+    "/readings.php": "/readings",
+    "/savagesunsets.php": "/savagesunsets",
+    "/skins.php": "/skins"
+  }
+}

@@ -1,0 +1,199 @@
+---
+---
+
+$image_path: "../images";
+
+@charset "UTF-8";
+/* CSS Document */
+
+/* Positioning Divs */
+
+html, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #3b0706;
+  background-image: url("#{$image_path}/Elements/Background.gif");
+  background-repeat: repeat-x;
+}
+
+.clear {
+  height: 0; width: 0;
+  clear: both;
+}
+
+#wrapper {
+  width: 782px;
+  margin: 54px auto;
+  text-align: left;
+}
+
+#banner {
+  width: 782px;
+  height: 127px;
+}
+
+#nav {
+  width: 782px;
+  height: 59px;
+}
+
+#nav ul {
+  width: 782px;
+  height: 59px;
+  display: block; text-align: center;
+}
+
+#nav ul li {
+  display: inline-block; list-style: none; margin-right: 5px;
+}
+#nav ul li:first-child { display: none; }
+
+#nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font: 15px/59px CenturyGothic, "Century Gothic", Helvetica, sans-serif;
+  -webkit-transition: color 200ms;
+  -moz-transition: color 200ms;
+  -o-transition: color 200ms;
+  transition: color 200ms;
+}
+#nav ul li em a { font-style: italic; }
+
+#nav ul li a:hover {
+  color: #336f70;
+}
+
+#content {
+  width: 782px;
+  min-height: 585px;
+  background-color: #FFF;
+  background-image: url("#{$image_path}/Elements/Content.jpg");
+  background-repeat: no-repeat;
+}
+
+#tail {
+  width: 782px;
+  height: 86px;
+  clear: both;
+  text-align: center;
+  background-image: url("#{$image_path}/Elements/Tail.gif");
+  background-repeat: no-repeat;
+}
+
+/* External Footer */
+
+.footer {
+  width: 750px;
+  font-size: 80%;
+  line-height: 110%;
+  letter-spacing: .04em;
+  text-align: center;
+}
+
+.footer ul li {
+  display: inline;
+  list-style-type: none;
+  padding: 0px 8px 0px;
+}
+.footer ul li a {
+  text-decoration: none;
+  font: 10px/40px CenturyGothic, "Century Gothic", Helvetica, sans-serif;
+  -webkit-transition: color 200ms;
+  -moz-transition: color 200ms;
+  -o-transition: color 200ms;
+  transition: color 200ms;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+  color: #066; 
+}
+
+a:link {
+  color: #066; 
+}
+
+a:visited {
+  color: #066;
+}
+
+a:hover {
+  color: #099;
+}
+
+/* Classes, Etc. */
+
+#content p {
+  padding: 50px 50px 50px;
+  font-size: 110%;
+  line-height: 130%;
+  text-align:justify;
+}
+
+.wrap_breaker {
+  width: 427px;
+  display: block;
+  float: right;
+}
+
+.quote {
+  padding-left: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.breaker {
+  text-align: center;
+  color: #900;
+  padding: 0px 50px 0px;
+  font-size: 115%;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.links {
+  padding: 50px 50px 50px;
+  font-size: 110%;
+  line-height: 130%;
+}
+
+img {
+  text-decoration: none;
+}
+
+/* Bibliography Org */
+
+.biblio {
+  height: 300px;
+  margin: 50px 20px 20px 50px;
+}
+
+.bibliotext{
+  font-size: 110%;
+  line-height: 130%;
+  padding-top: 100px;
+}
+
+/* Pic Floats */
+
+.leftpic {
+  padding: 0px 15px 10px 0px;
+  float: left;
+}
+
+.rightpic {
+  padding: 0px 0px 10px 15px;
+  float: right;
+}

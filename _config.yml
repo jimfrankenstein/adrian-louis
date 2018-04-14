@@ -14,4 +14,4 @@ exclude:
   - adrian-louis.sublime-project
   - adrian-louis.sublime-workspace
 
-gems: [jekyll-coffeescript]
+plugins: [jekyll-coffeescript]
